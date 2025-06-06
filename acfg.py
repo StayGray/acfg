@@ -629,3 +629,5 @@ match args.obj:
         handleConfig(args)
     case "client":
         handleClient(args)
+    case "_":
+        raise RuntimeError("No object specified")
