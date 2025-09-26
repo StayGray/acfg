@@ -36,11 +36,11 @@ minIpPort = 49152
 maxIpPort = 65535
 
 minJc =   3
-maxJc = 127
+maxJc = 30 # 127
 
 minJmin =    3
-maxJmin =  700
-maxJmax = 1270
+maxJmin =   75 #  700
+maxJmax =  150 # 1270
 
 minSx =   3
 maxSx = 127
