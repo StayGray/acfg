@@ -552,7 +552,7 @@ def handleClient(args: argparse.Namespace) -> None:
                     peerSection.setParam(pNameKeepalive  , str(keepalive)           )
                     peerSection.setParam(pNamePubKey     , svrPubKey                )
                     
-                    clCfgFile.save("./%s.cfg" % clName)
+                    clCfgFile.save("./%s.conf" % clName)
                     if args.qrcode:
                         clCfgFile.saveQRcode("./%s.png" % clName)
                 else:
